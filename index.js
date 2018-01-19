@@ -3,7 +3,7 @@ function iterativeLog(array) {
     console.log(`${index}: ${element}`)
   });
 }
-
+//I guess I was close before....
 function iterate(callback) {
   var array = ["cows", "racoons", "dogs"];
   array.forEach(callback);
@@ -38,6 +38,7 @@ function doToArray(array, callback) {
     function iterativeLog(array.forEach((element, index, array) => {
       console.log(`${index}: ${element}`);
     });
+
 
     function iterativeLog(element, index, array) {
       array.forEach(console.log(`${index}: ${element}`);
